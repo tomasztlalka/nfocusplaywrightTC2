@@ -44,3 +44,5 @@ test('orderNumber', async({page})=>{
     
     expect(orderNumFromHistory).toContain(orderNumAtCheckout);
 })
+
+//npx playwright test -g 'orderNumber' --headed
